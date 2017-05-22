@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+/*---------  header  -------*/
+#logo-social{
+  background: #252323;
+  padding: 2px;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+#logo{
+
+  font-family: 'Pacifico', 'Arial' ,cursive;
+  font-size: 32px;
+  color:#fff;
+}
+#logo:hover{
+  opacity: .8;
+}
+
+#logoblue{
+  color:#00bac6;
+}
+
+#social li>a:hover{
+  background: #252323;;
+  opacity: .8;
+}
+
+#menu .container,#menu .navbar-collapse{
+
+}
+#menu{
+  border:  2px solid #efefef;
+  margin-bottom: 0;
+}
+#menu .navbar-toggle{
+  border: 1px solid #8b8b8b;
+}
+#menu .navbar-toggle:hover{
+  opacity: .7;
+}
+#menu .icon-bar {
+  background-color: #8b8b8b;
+}
+#menu li>a{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  color: #8b8b8b;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom: 2px solid #fff;
+}
+#menu li>a:hover{
+  color:#22c3ce;
+  background: none;
+  border-bottom: 2px solid #22c3ce;
+}
+
+#search>input:after{
+  content: " ";
+  width: 18px;
+  height: 18px;
+  background: #333;
+}
+/*---------  //header  -------*/
+/*---------  Carouser  -------- */
+#myCarousel .item img{
+  width: 100%;
+  height: 450px;
+}
+#myCarousel .carousel-caption{
+  top: 110px;
+  font-size: 20px;
+}
+#myCarousel .carousel-caption h1{
+  text-transform: uppercase;
+  font-size: 53px;
+}
+#myCarousel .carousel-indicators .active {
+  width: 16px;
+  height: 16px;
+  border: 4px solid #fff;
+  background: #22c3ce;
+}
+#myCarousel .carousel-indicators li {
+ display: inline-block;
+ margin: 0;
+ width: 16px;
+ height: 16px;
+ text-indent: -999px;
+ cursor: pointer;
+ border: 4px solid #fff;
+ border-radius: 50%;
+}
+#myCarousel .carousel-control img{
+  width: 25px;
+  height: 52px;
+}
+/*--------- //Carouser  -------- */
+/*---------- Content wrap  --------*/
+
+#content-wrap{
+  background: #ffffffff;
+  padding-bottom: 50px;
+}
+.caption{
+  text-transform: uppercase;
+  text-align: center;
+  color: #818181;
+  font-size: 40px;
+  padding-top:60px;
+}
+.caption strong{
+  color: #646464;
+}
+.subtitle{
+  text-align: center;
+  font-size: 21px;
+  color: #9a9a9a;
+  margin-bottom: 50px;
+}
+.myitem{
+  text-align: center;
+  color: #9a9a9a;
+  transition: 1s;
+}
+.caption-myitem {
+  font-size: 26px;
+}
+.myitem p{
+  font-size: 17px;
+}
+.caption-myitem strong{
+  color: #646464;
+}
+
+.myitem-active{
+  margin-top: 35px;
+}
+/*---------- //Content wrap  --------*/
+
+/*------- hide-content  --------*/
+#hide-content{
+  background: #eeeeee;
+  min-height: 750px;
+  display: none;
+}
+.arr-sec{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrow-section{
+  width: 102px;
+  height: 54px;
+  position: absolute;
+  top:-45px;
+}
+ .hide-item-content{
+  margin-top: 50px;
+  border: 1px solid #c5c5c5;
+  padding: 0px 0px;
+}
+.hide-item-content img{
+  width: 100%;
+  height: 185px;
+}
+.hide-item-content h4{
+  color:#717070;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px 10px;
+  padding-bottom: 5px;
+}
+.hide-item-content p{
+  color:#818181;
+  font-size: 17px;
+  padding-top: 0;
+  padding: 5px 10px;
+}
+/*------- //hide-content  --------*/
+
+#customer-logos{
+  padding-top:40px;
+  padding-bottom:40px;
+  text-align: center;
+}
+#customer-logos img{
+  width: 174px;
+  height: 76px;
+}
+
+/*----------  nother-content  ---------*/
+#another-content{
+  color: #c1c1c1;
+  background: url(../img/bg1.png);
+  font-size: 17px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.caption-another-content{
+  color: #fff;
+  font-size: 29px;
+  margin-bottom: 18px;
+}
+.data-post{
+  color: #707073;
+}
+.tags-another-content,.aboutus-another-content,.contact-another-content{
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+}
+.selected-tags{
+  font-size: 23px;
+  color: #fff;
+}
+.selected-tags:hover{
+  cursor: pointer;
+}
+.contact-another-content img{
+  margin-right: 10px;
+}
+/*----------  //nother-content  ---------*/
+
+/*-----------  footer  --------*/
+#footer{
+  background: url(../img/bg2.png);
+}
+.social-footer img{
+  padding: 15px 8px;
+}
+.social-footer img:hover{
+  opacity: .7;
+}
+.rightsreserved{
+  margin-top: 5px;
+  padding: 15px 8px;
+  color:#c1c1c1;
+  font-size: 17px;
+}
+/*-----------  //footer  --------*/
